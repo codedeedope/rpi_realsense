@@ -1,4 +1,4 @@
-Diese Dokumentation ist [hier](https://github.com/codedeedope/rpi_realsense/blob/master/Nutzerdokumentation.md) auch im Web zu finden.
+Diese Benutzerdokumentation ist [hier](https://github.com/codedeedope/rpi_realsense/blob/master/Nutzerdokumentation.md) auch im Web zu finden.
 
 # Vorbedingungen
 ## Hardware
