@@ -21,7 +21,7 @@ Diese Benutzerdokumentation ist [hier](https://github.com/codedeedope/rpi_realse
 In KDE Network Connections: \
 Neues Wired Ethernet “RPI4” anlegen. \
 IPv4 Method "Manual" eintragen. \
-Adress: 192.168.10.2 \
+Adress: 192.168.10.2
 
 ## DHCP Server installieren
 Ist Folgender. Je nach System wird er anders installiert.
