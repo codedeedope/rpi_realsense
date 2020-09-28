@@ -1,3 +1,5 @@
+Diese Dokumentation ist im Web auch [hier](https://github.com/codedeedope/rpi_realsense/blob/master/Nutzerdokumentation.md) zu finden.
+
 # Vorbedingungen
 ## Hardware
 * Rechner. Getestet mit Kubuntu 18.04 und ROS Melodic Morenia. ROS Daten empfangen müsste aber auch mit neuerem (K-)ubuntu und ROS funktionieren. Auch getestet in einer virtuellen Maschine mit dem DHCP Server auf OpenSuse Linux als Host.
