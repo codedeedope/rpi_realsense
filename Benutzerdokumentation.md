@@ -42,7 +42,7 @@ Folgendes einfügen:
 
 	host rpi4 {
 	hardware ethernet dc:a6:32:58:1e:a9;
-	fixed-address 192.168.10.200;
+	fixed-address 192.168.10.137;
 	}
 
 Dienst aktivieren
@@ -54,7 +54,7 @@ Dienst aktivieren
 
 	sudo journalctl --unit=dhcpd.service
 	nmap -T5 -sP 192.168.10.0-255
-	ping 192.168.10.200
+	ping 192.168.10.137
 
 # Verwenden
 Netzwerkverbindung “RPI4” aktivieren.
@@ -66,7 +66,7 @@ u.U. DHCP Server (neu-) starten
 
 SSH Verbindung zum RPI4 öffnen
 
-	ssh ubuntu@192.168.10.200
+	ssh ubuntu@192.168.10.137
 
 ->Passwort: password
 
@@ -86,7 +86,7 @@ Auf Empfänger Maschine eigene IP setzen
 
 Auf Empfänger Maschine IP des PI's setzen
 
-	export ROS_MASTER_URI=http://192.168.10.200:11311
+	export ROS_MASTER_URI=http://192.168.10.137:11311
 
 Kamera Daten sind jetzt verfügbar. Nachzuschauen mit
 
