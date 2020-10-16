@@ -63,8 +63,8 @@ u.U. DHCP Server (neu-) starten
 
 	sudo systemctl restart dhcpd.service
 
-Achtung: 'sudo nmap -sn 192.168.10.0-255' zeigt die falsche MAC Adresse an, wenn das RPI hinter dem PoE Switch ist. \
-'sudo journalctl --unit isc-dhcp-server.service' benutzen, um MAC - IP Zuordnung zu überprüfen.
+**Achtung:** `sudo nmap -sn 192.168.10.0-255` zeigt die falsche MAC Adresse an, wenn das RPI hinter dem PoE Switch ist. \
+`sudo journalctl --unit isc-dhcp-server.service` benutzen, um MAC - IP Zuordnung zu überprüfen.
 
 
 SSH Verbindung zum RPI4 öffnen
