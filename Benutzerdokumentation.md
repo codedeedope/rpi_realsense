@@ -15,7 +15,8 @@ Diese Benutzerdokumentation ist [hier](https://codedeedope.github.io/rpi_realsen
 * RPI an Rechner via Ethernet Kabel verbunden.
 
 # Einrichten
-**– Kann je nach System variieren –**
+**– Kann je nach System variieren –** \
+**- Nur relevant bei eigenem Rechner –**
 
 ## Netzwerkverbindung einrichten
 In KDE Network Connections: \
@@ -57,7 +58,8 @@ Dienst aktivieren
 	ping 192.168.10.137
 
 # Verwenden
-Netzwerkverbindung “RPI4” aktivieren.
+Netzwerkverbindung “RPI4” aktivieren. \
+**Beim Labor Rechner muss "Vicon" aktiviert sein.
 
 u.U. DHCP Server (neu-) starten
 
@@ -65,7 +67,6 @@ u.U. DHCP Server (neu-) starten
 
 **Achtung:** `sudo nmap -sn 192.168.10.0-255` zeigt die falsche MAC Adresse an, wenn das RPI hinter dem PoE Switch ist. \
 `sudo journalctl --unit isc-dhcp-server.service` benutzen, um MAC - IP Zuordnung zu überprüfen.
-
 
 SSH Verbindung zum RPI4 öffnen
 
