@@ -59,7 +59,7 @@ Dienst aktivieren
 
 # Verwenden
 Netzwerkverbindung “RPI4” aktivieren. \
-**Beim Labor Rechner muss "Vicon" aktiviert sein.
+**Beim Labor Rechner muss "Vicon" aktiviert sein.**
 
 u.U. DHCP Server (neu-) starten
 
