@@ -32,7 +32,7 @@ Ist Folgender. Je nach System wird er anders installiert.
 ## RPI statische IP Adresse zuweisen via DHCP Server
 Via
 
-	sudo nano /etc/dhcpd.conf
+	sudo nano /etc/dhcp/dhcpd.conf
 
 
 Folgendes einfügen:
